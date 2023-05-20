@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contener-main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.contener-text{
+    color: #E6B939;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    
+}
+
+.contener-sarlovha{
+    font-size: 36px;
+    color: #575445;
+    line-height: 43px;
+    
+}
+
+
+.contener-matn{
+    font-size: 16px;
+    line-height: 19px;
+    color: #575445;
+    width: 530px;
+    
+}
+
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin-top: 71px;
+    margin-left: 250px;
+    
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    
+}
+
+.flowers{
+    background-color: #575445 ;
+    border-radius: 32px;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__nomi{
+    width: 227px;
+    height: 24px;
+    color: #575445;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    font-weight: 1;
+    padding: 9px;
+
+}
+
+.card__matni{
+    font-size: 14px;
+    line-height: 20px;
+    color: #575445;
+    text-align: center;
+    width: 280px;
+    height: 50px;
+    
+}
